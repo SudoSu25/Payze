@@ -169,6 +169,26 @@ nav {
     margin-left: 10px;
 }
 
-section {
+.section {
     display: flex;
+}
+
+.mid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    width: 270px;
+    height: 320px;
+    border-radius: 20px;
+
+    position: absolute;
+    left: 250px;
+    bottom: -850px;
 }
