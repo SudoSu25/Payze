@@ -28,6 +28,7 @@ nav {
     font-family: system-ui, -apple-system, sans-serif;
     /* margin: 0; */
     background: linear-gradient(90deg, rgb(254, 253, 255) 50%, var(--purple) 50%);
+    display: grid;
     box-sizing: border-box;
 }
 
@@ -182,7 +183,7 @@ nav {
 
     position: absolute;
     left: 250px;
-    bottom: -745px;
+    bottom: -830px;
 }
 
 .circle{
