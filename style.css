@@ -28,7 +28,6 @@ nav {
     font-family: system-ui, -apple-system, sans-serif;
     /* margin: 0; */
     background: linear-gradient(90deg, rgb(254, 253, 255) 50%, var(--purple) 50%);
-    /* display: grid; */
     box-sizing: border-box;
 }
 
@@ -78,8 +77,6 @@ nav {
     background-color: var(--light);
     border-radius: 60px;
     font-size: 15px;
-    /* color: white; */
-
 }
 
 .btn1::placeholder {
@@ -110,7 +107,7 @@ nav {
 
 .hero {
     display: flex;
-    /* margin-top: 100px; */
+    margin-top: 100px;
 }
 
 .card {
@@ -170,15 +167,8 @@ nav {
 }
 
 .section {
-    /* display: flex; */
     background: #ffffff;
     height: 150vh;
-}
-
-.mid {
-    /* display: flex; */
-    /* grid-template-columns: 1fr 1fr; */
-
 }
 
 .img {
