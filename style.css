@@ -26,8 +26,8 @@ nav {
 
 .container {
     font-family: system-ui, -apple-system, sans-serif;
-    /* margin: 0; */
-    background: linear-gradient(90deg, rgb(254, 253, 255) 50%, var(--purple) 50%);
+    margin: 0;
+    background: linear-gradient(90deg, rgb(251, 246, 255) 50%, var(--purple) 50%);
     display: grid;
     box-sizing: border-box;
 }
@@ -92,6 +92,7 @@ nav {
     height: 60px;
     border-radius: 60px;
     margin-top: 40px;
+    box-shadow: 0px 7px 20px darkgray;
 }
 
 .icon {
@@ -186,7 +187,7 @@ nav {
     bottom: -830px;
 }
 
-.circle{
+.circle {
     width: 150px;
     height: 150px;
     border-radius: 50%;
