@@ -213,6 +213,7 @@ nav {
     align-items: center;
     background-color: rgb(251, 246, 255);
     height: 100%;
+    padding-bottom: 100px;
 }
 
 .foot {
